@@ -57,7 +57,7 @@ public class MyTests {
         Rational r = new Rational(3,8);
         r.changeToEquivalentFraction(64);
         assertEquals("24/64", r.toString(), "The equivalent fraction of 3/8 with the base 64 is: 24/64");
-        Rational s = new Rational(1,2);
+        Rational s = new Rational(1,2); 
         s.changeToEquivalentFraction(100);
         assertEquals("50/100", s.toString(), "The equivalent fraction of 1/2 with the base 100 is: 50/100");
         Rational t = new Rational(16,8);
